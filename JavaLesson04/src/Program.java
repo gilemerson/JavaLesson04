@@ -6,7 +6,7 @@ public class Program {
 	public static void main(String[] args) {
 			
 		//Instantiate Person Class
-		Person person = new Person();
+		Person person = new Person(1.0);
 		String prompt = "";
 		
 		do {

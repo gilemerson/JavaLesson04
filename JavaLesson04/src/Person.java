@@ -2,6 +2,8 @@
 public class Person {
 //Private Instance Variables 
 	private int _age;
+	private float _weight;
+	private double _IQ;
 	private boolean _isValid = false;//if user inputs a error for age - less then one. Says it "Invalid"
 	
 
@@ -39,6 +41,26 @@ public class Person {
 	//Empty Constructor
 	Person(){
 		
+	}
+	
+	//Constructor that sets age
+	Person(int age){
+		this._age = age;
+	}
+	
+	
+	/*
+	//Constructor that sets weight
+	Person(float weight){
+		this._weight = weight;	
+		System.out.println("Weight: "+ this._weight);
+	}
+	*/
+	
+	
+	Person(double IQ){
+		this._IQ = IQ;
+		System.out.println("IQ: "+ this._IQ);
 	}
 	
 	//toString Method   //Overriding the toString Method
